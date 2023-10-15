@@ -60,3 +60,12 @@ main {
     display: block;
     padding: 10px;
 }
+
+div#formulario {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulário p {
+    font-size: .8em;
+}
