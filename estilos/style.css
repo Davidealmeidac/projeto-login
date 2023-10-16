@@ -70,12 +70,37 @@ div#formulário p {
     font-size: .8em;
 }
 
+div.campo > i {
+    color: #fff;
+    background-color: #1c5166;
+    font-size: 2em;
+    height: 100%;
+    width: 40px;
+    padding: 5px;
+    border-radius: 10px;
+}
 
+div.campo > input {
+    background-color: #9CC1D9;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    transform: translateY(-12px);
+    height: 100%;
+    border: 0px;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+div.campo > input:focus-within {
+    background-color: #fff;
+    border: none;
+}
 
 form > div.campo {
     background-color: #1c5166;
+    border: 2px solid #1c5166;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 5px 0px;
 }
 
