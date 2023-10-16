@@ -34,7 +34,6 @@ main {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
 
 
@@ -44,6 +43,7 @@ main {
     border-radius: 20px;
     box-shadow: 0 0 10px #025959;
 
+    transform: translate(-50%, -50%);
     transition: width .4s, height .4s;
     transition-timing-function: ease;
 }
@@ -84,11 +84,11 @@ div.campo > input {
     background-color: #9CC1D9;
     font-size: 1em;
     width: calc(100% - 45px);
-    transform: translateY(-12px);
     height: 100%;
     border: 0px;
     border-radius: 10px;
     padding: 2px;
+    transform: translateY(-12px);
 }
 
 div.campo > input:focus-within {
